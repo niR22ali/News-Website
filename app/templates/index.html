@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<script src="{% static 'js/demo.js' %}"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>News</title>
+</head>
+<body>
+    <h1 class="heading">Here You Go For All Kind Of News!</h1>
+
+    <div class="upper3">
+        <div class="box1">
+            <a href="{% url 'entertainment' %}" class="ent">ENTERTAINMENT</a>
+            <a href="{% url 'entertainment' %}" class="entimg">
+                <img src="{% static 'images/ent.webp' %}" height="250px" width="350px"  onclick="viewmsg();"/>
+            </a>
+        </div>
+        <div class="box2">
+            <a href="{% url 'sports' %}" class="sport">SPORTS</a>
+            <a href="{% url 'sports' %}" class="sportimg">
+                <img src="{% static 'images/sport.webp' %}" height="250px" width="350px" onclick="viewmsg();"/>
+            </a>
+        </div>
+        <div class="box3">
+            <a href="{% url 'politics' %}" class="poli">POLITICS</a>
+            <a href="{% url 'politics' %}" class="poliimg">
+                <img src="{% static 'images/poli.webp' %}" height="250px" width="350px" onclick="viewmsg();"/>
+            </a>
+        </div>
+    </div>
+
+    <div class="lower3">
+        <div class="box1">
+            <a href="{% url 'technology' %}" class="ent">TECHNOLOGY</a>
+            <a href="{% url 'technology' %}" class="entimg">
+                <img src="{% static 'images/tech.webp' %}" height="250px" width="350px" onclick="viewmsg();"/>
+            </a>
+        </div>
+        <div class="box2">
+            <a href="{% url 'business' %}" class="sport">BUSINESS</a>
+            <a href="{% url 'business' %}" class="sportimg">
+                <img src="{% static 'images/busi.webp' %}" height="250px" width="350px" onclick="viewmsg();"/>
+            </a>
+        </div>
+        <div class="box3">
+            <a href="{% url 'international' %}" class="poli">INTERNATIONAL</a>
+            <a href="{% url 'international' %}" class="poliimg">
+                <img src="{% static 'images/poli.webp' %}" height="250px" width="350px" onclick="viewmsg();"/>
+            </a>
+        </div>
+    </div>
+
+    <div class="lowest2">
+        <div class="box7">
+            <a href="{% url 'india' %}" class="india">INDIA</a>
+            <a href="{% url 'india' %}" class="entimg">
+                <img src="{% static 'images/india.jpg' %}" height="250px" width="350px" onclick="viewmsg();"/>
+            </a>
+        </div>
+        <div class="box8">
+            <a href="{% url 'miscellaneous' %}" class="all">MISCELLANEOUS</a>
+            <a href="{% url 'miscellaneous' %}" class="allimg">
+                <img src="{% static 'images/mis.webp' %}" height="250px" width="350px" onclick="viewmsg();"/>
+            </a>
+        </div>
+    </div>
+</body>
+</html>

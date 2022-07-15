@@ -1,0 +1,162 @@
+bode{
+    background-color:#EAF3F3;
+}
+
+.heading{
+    text-align:center;
+    background-color:yellow;
+}
+
+img{
+
+    transition: box-shadow .3s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img:hover{
+    box-shadow: rgba(255,0,0,0.3) 0px 19px 38px, rgba(255,0,0,0.3) 0px 15px 12px;
+    border: 1px solid #555;
+}
+
+.upper3{
+    padding-bottom:2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box1{
+  float: left;
+  width: 29%;
+  padding: 5px;
+
+}
+
+.box2{
+    float: left;
+    width: 43.1%;
+    padding: 5px;
+}
+
+
+.box3{
+    padding-top:1.3rem;
+
+}
+
+.ent{
+    padding-left:11rem;
+    padding-top:1rem;
+    color:red;
+    display: block;
+    text-decoration: none;
+    font-weight:bold;
+    transition: font-size .3s;
+
+}
+
+.ent:hover{
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size:1.3rem
+}
+
+.entimg{
+    padding-left:4.8rem;
+    padding-top:1rem;
+    display: block;
+}
+
+.sport{
+    padding-left:17.5rem;
+    color:red;
+    display: block;
+    text-decoration: none;
+    padding-top:1rem;
+    font-weight:bold;
+    transition: font-size .3s;
+}
+
+.sportimg{
+    padding-left:9rem;
+    padding-top:1rem;
+    display: block;
+}
+
+.sport:hover{
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size:1.3rem
+}
+
+.poli{
+    padding-left:75rem;
+    color:red;
+    display: block;
+    text-decoration: none;
+    font-weight:bold;
+    transition: font-size .3s;
+}
+
+.poliimg{
+    padding-left:9.8rem;
+    padding-top:1rem;
+    display: block;
+}
+
+.poli:hover{
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size:1.3rem
+}
+
+.lower3{
+    padding-bottom:3rem;
+}
+
+.box7{
+    padding-left:16rem;
+    float: left;
+    width: 56.5%;
+
+
+}
+
+.india{
+    padding-left:14rem;
+    color:red;
+    display: block;
+    text-decoration: none;
+    font-weight:bold;
+    transition: font-size .3s;
+}
+
+.india:hover{
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size:1.3rem
+}
+
+.box8{
+    padding-left:1rem;
+    display:block
+
+}
+
+.all{
+    padding-left:58rem;
+    color:red;
+    display: block;
+    text-decoration: none;
+    font-weight:bold;
+    transition: font-size .3s;
+}
+
+.all:hover{
+    text-shadow: 2px 2px 8px #FF0000;
+    font-size:1.3rem
+}
+
+.allimg{
+    padding-left:9.8rem;
+    padding-top:1rem;
+    display: block;
+}
+
