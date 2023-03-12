@@ -3,8 +3,11 @@ import requests
 
 # Create your views here.
 
+def login(request):
+    return render(request, 'login.html')
+
 def index(request):
-    return render(request,'index.html')
+    return render(request, 'index.html')
 
 def entertainment(request):
     records = {}
@@ -71,3 +74,10 @@ def miscellaneous(request):
     inshorts_data = response.json()
     records['sportsdata'] = inshorts_data
     return render(request, 'sports.html', records)
+
+
+
+        
+
+
+

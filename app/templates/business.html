@@ -7,12 +7,16 @@
     <title>Business news</title>
 </head>
 <body>
+       <div>
+        <a href="{% url 'indexfile' %}"><input type="button" class="btn-primary" value="Back To Home" 
+           style="margin-left: 45%;"></a>
+       </div><br>
        <div class='row'>
             <div class='card-group'>
 
                {% for value in sportsdata.data %}
                 <div class="col-md-4">
-                    <div class="card" style="margin:2rem,height:50rem">
+                    <div class="card" style="height:50rem">
                          <img class="card-img-top" src="{{ value.imageUrl }}" style="height:25rem" />
                          <div class="card-body">
                              <h5 class="card-title">{{ value.title }}</h5>

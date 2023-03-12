@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<script src="{% static 'js/demo.js' %}"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Web</title>
+</head>
+<body class="bg">
+    <a href="{% url 'indexfile' %}"><input type="button" class="button" value="Proceed"></a>
+</body>
+</html>
